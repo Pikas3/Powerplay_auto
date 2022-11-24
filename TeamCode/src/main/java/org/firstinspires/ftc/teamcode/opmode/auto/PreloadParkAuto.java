@@ -20,8 +20,8 @@ public class PreloadParkAuto extends LinearOpMode {
     SleeveDetection.Color parkingPos = SleeveDetection.Color.MAGENTA;
     private double turret_front = 0;
     private double turret_back = 240;
-    private double turrent_right = 120;
-    private double turrent_left = -120;
+    private double turret_right = 120;
+    private double turret_left = -120;
 
     public TrajectorySequence build_preload_sequence(double liftHeight) {
         Vector2d JUNCTION_POSE = new Vector2d(40, -52);
