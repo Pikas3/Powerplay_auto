@@ -42,7 +42,7 @@ public class PreloadParkAuto extends LinearOpMode {
             .lineToLinearHeading(PARKINGSTART_POSE)
             .addTemporalMarker(13.5, () -> {
                   // Back to moving  stage setting
-//                robot.lift.setTargetHeight(0);
+                robot.lift.setTargetHeight(0);
 //                robot.turret.setPosition(RobotConstants.FrontTurret);
 
             })
